@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Our hypothetical client, Mia Music, is a teacher of guitar, piano and singing to students of all ages. She conducts her lessons at her studio in Penny Lane, Melboure.
+Our hypothetical client, Mia Music, is a teacher of guitar, piano and singing to students of all ages. She conducts her lessons at her studio in Penny Lane, Melbourne.
 
 Presently, her students book lessons with her variously by text message, phone call and email. Mia finds this part of her business to be labour-intensive and cumbersome for both her and her students.
 
@@ -37,6 +37,23 @@ Mia is looking for a solution that improves the booking experience for her and h
 
 ## Target audience
 
-Our target audience 
+Our target audience comprises all of Mia's present and prospective music students. These students span all ages and demographics. Therefore, the app will need to be accessible to this wide audience.
 
 ## Tech stack
+
+### Front end
+- HTML
+- CSS
+- JavaScript
+- ReactJS
+
+### Back end
+- Ruby
+- Rails
+
+### Database
+- PostgreSQL
+
+### Deployment
+- Netlify (front end)
+- Heroku (back end)
