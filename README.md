@@ -9,7 +9,7 @@ Presently, her students book lessons with her variously by text message, phone c
 Mia is looking for a solution that improves the booking experience for her and her students. She has engaged us to develop a full-stack web app through which:
 
 1. her students can book and manage their lessons; and
-2. she can view and manage all of her lessons
+2. she can view and manage all of her lessons.
 
 ## Functionality
 
@@ -32,8 +32,6 @@ Mia is looking for a solution that improves the booking experience for her and h
 - Add a lesson
 - Change a lesson
 - Cancel a lesson
-
-**[TBC: home lessons option for booking if times available]**
 
 ## Target audience
 
