@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Our hypothetical client, Mia Music, is a teacher of guitar, piano and singing to students of all ages. She conducts her lessons both in-person at her studio in Penny Lane, Melbourne, and virtually over Zoom to students at their homes.
+Our hypothetical client, Mia Music, is a teacher of guitar, piano and singing to students of all ages. She conducts her lessons both in person at her studio in Penny Lane, Melbourne, and virtually over Zoom to students at their homes.
 
 Presently, her students book lessons with her variously by text message, phone call and email. Mia finds this part of her business to be labour-intensive and cumbersome for both her and her students.
 
