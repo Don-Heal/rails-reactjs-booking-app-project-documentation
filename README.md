@@ -36,7 +36,7 @@ Mia is looking for a solution that improves the booking experience for her and h
 
 ## Target audience
 
-Our target audience comprises all of Mia's present and prospective music students. These students span all ages and demographics. Therefore, the app will need to be accessible to this wide audience.
+Our target audience comprises Mia and all of Mia's present and prospective music students. These students span all ages and demographics. Therefore, the app will need to be accessible to this wide audience.
 
 ## Tech stack
 
