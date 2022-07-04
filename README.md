@@ -64,7 +64,7 @@ Our target audience comprises Mia and all of Mia's present and prospective music
 
 ## Application architecture diagram
 
-[***Insert***]
+![Arch diagram](/src/diagrams/Architecture.png "architecture diagram")
 
 ## User stories
 
@@ -96,7 +96,25 @@ As **Mia**, I want to:
 
 ## Wireframes
 
-[***Insert***]
+### Homepage
+![Homepage](/src/wireframes/Home_page.png "Homepage")
+
+### Booking
+![Bookings](/src/wireframes/Bookings_page.png "Bookings page")
+
+### Price
+![Price](/src/wireframes/Prices.png "Price")
+
+### Contact
+![Contact](/src/wireframes/Contact.png "Contact page")
+
+### Admin
+
+![Admin page](/src/wireframes/Admin.png "admin page")
+
+### User
+
+![Users](/src/wireframes/User_Page.png "Users page")
 
 ## Trello board
 
