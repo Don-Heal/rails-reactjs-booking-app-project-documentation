@@ -60,7 +60,7 @@ Our target audience comprises Mia and all of Mia's present and prospective music
 
 ## Dataflow diagram
 
-[***Insert***]
+![Data Diagram](/docs/diagrams/Data_Flow.png "architecture diagram")
 
 ## Application architecture diagram
 
@@ -118,4 +118,9 @@ As **Mia**, I want to:
 
 ## Trello board
 
-[***Insert***]
+![T1](/docs/trello/Trello1.png "Board 1")
+![T2](/docs/trello/Trello2.png "Board 2")
+![T3](/docs/trello/Trello3.png "Board 3")
+![T4](/docs/trello/Trello4.png "Board 4")
+![T5](/docs/trello/Trello5.png "Board 5")
+![T6](/docs/trello/Trello6.png "Board 6")
