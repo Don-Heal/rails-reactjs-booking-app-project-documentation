@@ -8,8 +8,8 @@ Presently, her students book lessons with her variously by text message, phone c
 
 Mia is looking for a solution that improves the booking experience for her and her students. She has engaged us to develop a full-stack web app through which:
 
-1. her students can book and manage their lessons; and
-2. she can view and manage all of her lessons.
+1. Her students can book and manage their lessons
+2. She can view and manage all of her lessons
 
 ## Functionality
 
@@ -33,6 +33,7 @@ Mia is looking for a solution that improves the booking experience for her and h
 - Add a lesson
 - Change a lesson
 - Cancel a lesson
+- Change the prices displayed for lessons
 - Receive all messages submitted through the app's contact form
 
 ## Target audience
@@ -61,58 +62,49 @@ Our target audience comprises Mia and all of Mia's present and prospective music
 ## Dataflow diagram
 
 ![Data Diagram](/docs/diagrams/Data_Flow.png "architecture diagram")
-### **notes**
-Public user
 
-**Can**
+**Public User**
 
-- Access to homepage
-
+Can access:
+- Homepage
 - Login
-
 - Sign up
-
 - Prices
-
 - Contact
 
-**Restricted**
-
+Cannot access:
 - All booking features
-
 - Account information
 
-**Log in**
-
-- Public users will use valid credentials to log in to the site to access restricted parts of the website and receive a valid auth token.
+**Login**
+- Public Users will use valid credentials to log in to the site to access restricted parts of the website and receive a valid auth token.
 
 **Sign Up**
+- The app will take the Public User's valid and required information to create a new user in the database. The user will then be signed in and given a valid auth token.
 
-- Take the Public user's valid and required information to create a new user in the database, then will be signed in and given a valid auth token.
+**Registered User**
 
-**Registered user**
+- Can do all that the Public User can do, plus create, view, edit and delete bookings associated with the currently logged-in user. Can also update and change their account information.
 
-- All that the public user can do with the added features of creating, viewing, editing, and deleting bookings associated with the currently logged-in user. Update and change their account information.
+**Admin User**
 
-**Admin user**
-
-- Has all the same abilities as a registered user except for viewing and editing all bookings, not just a single user. Alter the prices that are stored in the database.
+- Can do all that the Registered User can do, plus can create, viewm edit, and delete any booking (not just those of a single user). Can also alter the lesson prices that are stored in the database.
 
 **Prices**
 
-- It can be viewed by all users but only edited by a valid admin
+- Can be viewed by all users and edited only by a the Admin User.
 
 **Account**
 
-- Can view current account information and update the information in the database if need be
+- Can view current account information and update this account information in the database.
 
 **Bookings**
 
-- Valid users can create, view, edit, and delete bookings associated with the account. Admin users can access all bookings and edit them.
+- Valid users can create, view, edit and delete bookings associated with that user's account. The Admin User can access all bookings and create, view, edit and delete any of them.
 
 **Contact**
 
-- The contact form can be accessed by all users and filled in to be stored in the database
+- The contact form can be accessed by all users and information submitted will be stored in the database.
 
 ## Application architecture diagram
 
@@ -144,7 +136,8 @@ As **Mia**, I want to:
 13.  Add a lesson so that I can record any lessons that I arrange outside of the app (for example, there may be instances where I still arrange lessons by conversing with a student)
 14.  Change a lesson so that I can reschedule lessons in the event there is a need to do so and I know of a suitable location/date/time for reschedule
 15.  Cancel a lesson so that I can withdraw my commitment to providing a lesson if my plans change and providing that lesson is not feasible or desirable
-16.  Receive all messages submitted through the app's contact form so that I can be informed of any messages from students or prospective students and act accordingly (for example, by calling them to discuss the prospect of lessons)
+16.  Change the prices displayed for my lessons so that I can maintain up-to-date advertisements of my lesson prices if/when they change
+17.  Receive all messages submitted through the app's contact form so that I can be informed of any messages from students or prospective students and act accordingly (for example, by calling them to discuss the prospect of lessons)
 
 ## Wireframes
 
