@@ -61,6 +61,58 @@ Our target audience comprises Mia and all of Mia's present and prospective music
 ## Dataflow diagram
 
 ![Data Diagram](/docs/diagrams/Data_Flow.png "architecture diagram")
+### **notes**
+Public user
+
+**Can**
+
+- Access to homepage
+
+- Login
+
+- Sign up
+
+- Prices
+
+- Contact
+
+**Restricted**
+
+- All booking features
+
+- Account information
+
+**Log in**
+
+- Public users will use valid credentials to log in to the site to access restricted parts of the website and receive a valid auth token.
+
+**Sign Up**
+
+- Take the Public user's valid and required information to create a new user in the database, then will be signed in and given a valid auth token.
+
+**Registered user**
+
+- All that the public user can do with the added features of creating, viewing, editing, and deleting bookings associated with the currently logged-in user. Update and change their account information.
+
+**Admin user**
+
+- Has all the same abilities as a registered user except for viewing and editing all bookings, not just a single user. Alter the prices that are stored in the database.
+
+**Prices**
+
+- It can be viewed by all users but only edited by a valid admin
+
+**Account**
+
+- Can view current account information and update the information in the database if need be
+
+**Bookings**
+
+- Valid users can create, view, edit, and delete bookings associated with the account. Admin users can access all bookings and edit them.
+
+**Contact**
+
+- The contact form can be accessed by all users and filled in to be stored in the database
 
 ## Application architecture diagram
 
